@@ -10,6 +10,7 @@ Purchase Ticket Use Case:
   2. The system displays the total cost for the customer's ticket.
   3. The customer chooses their payment option: cash or credit.
   4. If the customer chooses credit, they will insert their card, and if they choose cash, they will insert cash and receive any change if needed.
-  6. TUCEW with a confirmation message that the purchase was successful, and the system will prevent any other customers from reserving the seat associated with that show time in the future. 
+  6. TUCEW with a confirmation message that the purchase was successful, and the system will prevent any other customers from reserving the seat associated with that show time in the future.
+
 -Postcondition: The system will send a confirmation email to the customer that their purchase was successful.
 The system shall also prevent other customers from reserving the seat that was just reserved for that show time in that ticket.
